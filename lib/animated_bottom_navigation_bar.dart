@@ -438,7 +438,7 @@ class _AnimatedBottomNavigationBarState
     final bottomPadding =
         widget.safeAreaValues.bottom ? 0 : MediaQuery.paddingOf(context).bottom;
     return Container(
-      height: (widget.height ?? kBottomNavigationBarHeight) + 12,
+      height: (widget.height ?? kBottomNavigationBarHeight + 12 ),
       decoration: BoxDecoration(
         color: widget.backgroundColor ?? Colors.white,
         gradient: widget.backgroundGradient,
